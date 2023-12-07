@@ -40,7 +40,7 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
        # Create release apk
-      - name: Build release apk bundle
+      - name: Build release apk
         run: flutter build apk --release  --flavor production --target lib/main_development.dart
       - name: Android - Upload artifact
         uses: actions/upload-artifact@v3
