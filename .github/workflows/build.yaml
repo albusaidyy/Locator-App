@@ -25,7 +25,7 @@ jobs:
     steps:
       # Checkout to the selected branch
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       # Download and install flutter packages
       - name: Install Flutter
         uses: subosito/flutter-action@v2
