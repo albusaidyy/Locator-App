@@ -72,7 +72,6 @@ class _BottomBarState extends State<BottomBar> {
                       BottomNavigationBarItem(
                         icon: Icon(
                           CupertinoIcons.ellipses_bubble,
-                          color: Colors.black,
                         ),
                         label: 'Chat',
                       ),
