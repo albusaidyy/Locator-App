@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:locator/home/home.dart';
+import 'package:locator/bottom_tab_bar/bottom_tab_bar.dart';
 import 'package:locator/l10n/l10n.dart';
 
 class App extends StatelessWidget {
@@ -9,9 +9,6 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        appBarTheme: AppBarTheme(
-          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        ),
         fontFamily: 'SplineSans',
         useMaterial3: true,
       ),
